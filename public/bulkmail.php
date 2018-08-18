@@ -11,7 +11,7 @@ $mail->isHTML(TRUE);
 $mail->Body = nl2br($mailmessage);
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
-$mail->Port = 465;
+$mail->Port = 485;
 $mail->SMTPSecure = 'ssl';
 $mail->SMTPAuth = TRUE;
 
